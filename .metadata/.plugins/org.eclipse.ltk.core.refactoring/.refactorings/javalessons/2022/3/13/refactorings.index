@@ -1,0 +1,19 @@
+1648114024774	Rename package 'variables'
+1648176274101	Move compilation unit
+1648176329176	Move compilation unit
+1648184289783	Delete element
+1648184336970	Rename type 'BankTest'
+1648184565589	Rename type 'BankAccount'
+1648191255810	Rename type 'Bank'
+1648195257291	Delete element
+1648198290140	Move compilation unit
+1648199226386	Encapsulate field 'regNo'
+1648199233911	Encapsulate field 'yearOfPurchase'
+1648199241291	Encapsulate field 'color'
+1648199248711	Encapsulate field 'fuel'
+1648200335933	Encapsulate field 'bookName'
+1648200341273	Encapsulate field 'yearOfRelease'
+1648200346646	Encapsulate field 'authorName'
+1648200376864	Encapsulate field 'Story'
+1648200751215	Delete element
+1648201462549	Encapsulate field 'placeOfRelease'

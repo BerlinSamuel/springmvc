@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.chainsys.datelessons.WorkingwWithDate&apos; to &apos;WorkingWithDate&apos;&#x0D;&#x0A;- Original project: &apos;javalessons&apos;&#x0D;&#x0A;- Original element: &apos;com.chainsys.datelessons.WorkingwWithDate&apos;&#x0D;&#x0A;- Renamed element: &apos;com.chainsys.datelessons.WorkingWithDate&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WorkingwWithDate&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.chainsys.datelessons{WorkingwWithDate.java[WorkingwWithDate" matchStrategy="1" name="WorkingWithDate" qualified="false" references="true" similarDeclarations="false" stamp="1648466373493" textual="false" version="1.0"/>
+</session>

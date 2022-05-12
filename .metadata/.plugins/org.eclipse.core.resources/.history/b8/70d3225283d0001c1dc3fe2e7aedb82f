@@ -1,0 +1,53 @@
+package exampleprograms;
+
+public class StudentDetails {
+	public static int studentID;
+	public static String studentName;
+	public static int studentDOB;
+	public static String studentBloodGroup;
+	public static int studentHeight;
+	public static int studentMarks;
+
+public static void showDetails(){
+	StudentDetails SD= new StudentDetails();
+}
+public static int studentID(int paramID) {
+	int studentDetail = paramID;
+	paramID=1001;
+	System.out.println(paramID);
+	return paramID;
+}
+public static String studentName(String paramName) {
+	String studentDetail = paramName;
+	paramName="Samuel";
+	System.out.println(paramName);
+	return paramName;
+}
+public static int studentDoB(int paramDOB) {
+	int studentDetail = paramDOB;
+	paramDOB= 13-02-1997;
+	System.out.println(paramDOB);
+	return paramDOB;
+}
+public static String studentBloodGroup(String paramBloodGroup) {
+	String studentDetail = paramBloodGroup;
+	paramBloodGroup="O+ve";
+	return paramBloodGroup;
+}
+public static double studentHeight(double paramHeight) {
+	double studentDetail = paramHeight;
+	paramHeight=5.9;
+	System.out.println(paramHeight);
+	return paramHeight;
+}
+public static int studentMarks(int paramMarks) {
+	int studentDetail = paramMarks;
+	paramMarks=1012;
+	return paramMarks;
+}
+public static void main(String[] args) {
+	
+	SD.showDetails();
+
+}
+}
