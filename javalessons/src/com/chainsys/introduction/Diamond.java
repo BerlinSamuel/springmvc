@@ -30,6 +30,5 @@ public static void printDiamond() {
 			}
 			System.out.println();
 		}
-		
 	}
 }

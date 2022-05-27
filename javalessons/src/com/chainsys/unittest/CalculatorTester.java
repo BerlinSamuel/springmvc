@@ -1,5 +1,4 @@
 package com.chainsys.unittest;
-
 import com.chainsys.variables.Calculator;
 
 /**

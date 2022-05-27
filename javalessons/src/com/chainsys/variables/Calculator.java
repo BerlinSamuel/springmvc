@@ -7,8 +7,8 @@ package com.chainsys.variables;
 public class Calculator {
 	/**
 	 * Add method: will take 2 integer values using the following parameters,
-	 * and will ad the values. The result of totaling will be returned back to the caller
-	 * This a static method, object reference is not required.
+	 * and will add the values. The result of totaling will be returned back to the caller
+	 * This is a static method, object reference is not required.
 	 * 
 	 *  @param param1 of type int
 	 *  @param param2 of type int

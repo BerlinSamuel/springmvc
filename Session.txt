@@ -1,0 +1,36 @@
+To find/Change Servlet version:
+1.Right click on servlet project
+2.Select properties 
+3.Select project facets
+4.Dynamic web module version.
+
+------------------------------------
+
+Service method:
+    when service method is present in the servlet doGet and doPost are not called.
+    All HTTP methods will be handled by service method.
+    For doPost and goGet to be called service method should not be there in servlet.
+
+--------------------------------------
+
+Session TimeOut:
+	Default time out perod 30 minutes(1800 sec).
+In wb.xml:
+<session-config>
+		 <session-timeout>10</session-timeout>
+</session-config>
+	Here the value for timeout is in minutes. It applies to all servlets, all users in this websites.
+
+---------------------------------------
+
+State Management:
+	1. Client side state management(Inside the browser with in the HTML Page)
+	2. Server side state management
+
+Server side state Management:
+	1. Request Scope
+	2. Session Scope
+	3. Application Scope
+
+-----------------------------------------
+

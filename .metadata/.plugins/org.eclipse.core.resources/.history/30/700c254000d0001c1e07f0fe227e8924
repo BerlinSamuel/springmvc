@@ -1,7 +1,0 @@
-package exampleprograms;
-
-public class House extends Home {
-public static void main(){
-	viewHouse();
-}
-}

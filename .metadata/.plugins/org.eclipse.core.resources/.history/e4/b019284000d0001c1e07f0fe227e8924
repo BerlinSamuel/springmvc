@@ -1,7 +1,0 @@
-package exampleprograms;
-
-public class Home {
- public static void viewHouse()z
-	Home house=new Home();
-	}
-

@@ -4,9 +4,10 @@ class triangle{
 	
 }
 public class StudentDetails {
-	public void studentName() {
+	public String studentName() {
 		String studentName="SAMUEL";
 		System.out.println("The name of the student:"+studentName);
+		return null;
 	}
 	public void studentDepartment() {
 		String studentDepartment="EEE";

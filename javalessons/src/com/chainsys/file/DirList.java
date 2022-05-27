@@ -1,7 +1,5 @@
 package com.chainsys.file;
-
 import java.io.File;
-
 public class DirList {
 	     public static void main(String args[]) {
 	            String dirname ="d: /temp";
@@ -20,8 +18,7 @@ public class DirList {
 	            {
 	            System.out.println("\t"+f.getName() + "is a file");
 	            }
-
-	        }
+	            }
 	            }
 	        }
 	    }

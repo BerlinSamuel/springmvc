@@ -1,0 +1,30 @@
+com.chainsys.miniproject.ui
+com.chainsys.miniproject.businesslogic
+com.chainsys.miniproject.pojo(plain old java object)
+com.chainsys.miniproject.dao(data access object)
+com.chainsys.miniproject.commonutil
+com.chainsys.miniproject.test
+
+-----------------------------
+
+class 
+
+in ui package - EmployeeUi(Scanner & Syso should be in Ui class)
+in bl package - EmployeeController
+in pojo package - Employee(object of this class is used to transfer data between UI<->Controller<->DAO
+in dao package - EmployeeDao(JDBC code should be written only in this class)
+in commonutil package - LogManager
+in test package - TestEmployeeDao
+
+-------------------------------
+
+tables
+
+-----------
+
+1) Doctor- id,name,dob,speciality,city,phone_number,standard_fees
+2) Appointments-app_id,app_date,doctor_id,patient_name,fees_collected (free,normal,standard)
+---create tables in oracle and implement java code for them.
+also implement EmployeeUi
+doctorUi,Dao,Pojo,test
+AppointmentUi,Dao,Pojo,test

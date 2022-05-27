@@ -1,5 +1,4 @@
 package com.chainsys.strings;
-
 public class StringLessonA {
 	public static void lessonOne() {
 		//String is array of characters

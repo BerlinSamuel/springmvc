@@ -6,8 +6,7 @@ public class Customer
     private String name;
     private String address;
     private String city;
-    private double mobileNo;
-    
+    private double mobileNo;    
     private String serviceProvider;
     public String getServiceProvider() {
         return serviceProvider;
@@ -71,8 +70,9 @@ public class Customer
         }
         this.name = name;
     }
-    public String getAddress() {        return address;     }
-    
+    public String getAddress() {   
+    	return address; 
+    	} 
     public void setAddress(String address) {
         if(address==null)
         {
@@ -102,7 +102,8 @@ public class Customer
             return;
         }this.city = city;
     }
-    public double getMobileNo() {         return mobileNo;     }
+    public double getMobileNo() {   
+    	return mobileNo;     }
     
     public void setMobileNo(double mobileNo) {
         if(mobileNo==0)
